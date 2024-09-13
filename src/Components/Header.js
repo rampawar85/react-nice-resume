@@ -26,31 +26,29 @@ class Header extends Component {
           <ul id="nav" className="nav">
             <li className="current">
               <a className="smoothscroll" href="#home">
-                Home
+              Home
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#about">
-                About
+              Data Security
               </a>
             </li>
 
             <li>
               <a className="smoothscroll" href="#resume">
-                Resume
+              Student & Graduate Programmes
               </a>
             </li>
-
             <li>
               <a className="smoothscroll" href="#portfolio">
-                Works
+                About Us
               </a>
             </li>
-
             <li>
               <a className="smoothscroll" href="#contact">
-                Contact
+              Contact Us
               </a>
             </li>
           </ul>
@@ -59,22 +57,12 @@ class Header extends Component {
         <div className="row banner">
           <div className="banner-text">
             <Fade bottom>
-              <h1 className="responsive-headline">{name}</h1>
+              <h1 style={{color: "white",}}>Welcome To Esther DataLabs</h1>
             </Fade>
             <Fade bottom duration={1200}>
-              <h3>{description}.</h3>
+              {/* <h3>{description}.</h3> */}
             </Fade>
-            <hr />
-            <Fade bottom duration={2000}>
-              <ul className="social">
-                <a href={project} className="button btn project-btn">
-                  <i className="fa fa-book"></i>Project
-                </a>
-                <a href={github} className="button btn github-btn">
-                  <i className="fa fa-github"></i>Github
-                </a>
-              </ul>
-            </Fade>
+            <hr />           
           </div>
         </div>
 

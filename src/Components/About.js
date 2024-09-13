@@ -20,7 +20,57 @@ class About extends Component {
       <section id="about">
         <Fade duration={1000}>
           <div className="row">
-            <div className="three columns">
+            <h3 style={{color:'#fff'}}>Data Security</h3>
+          </div>
+          <div className="row">
+            <p>
+              Cyber security consulting services to help business assess risks,
+              develop security strategy and implement best practices.
+            </p>
+
+            <p>
+              <b>Threat Intelligence - </b> <br />
+              Services that gather and analyze information about current and
+              potential cyber threats. This helps organization's stay ahead of
+              attackers by understanding their tactics and techniques.
+            </p>
+
+            <p>
+              <b>Penetrating Testing -</b> <br /> Simulating cyber attacks to
+              identify vulnerabilities in systems and networks before malicious
+              hackers can exploit them.
+            </p>
+
+            <p>
+              <b>Security Awareness Training -</b> <br /> Educating
+              employees/students about cybersecurity best practices to prevent
+              human errors that could lead to security breaches.
+            </p>
+
+            <p>
+              <b>Workstation Security - </b> <br />
+              protecting sensitive data and ensuring the integrity of your
+              organization's IT infrastructure.
+            </p>
+
+            <p>
+              <b>Application Security - </b> <br /> involves implementing
+              measures to protect software applications from threats throughout
+              their lifecycle, from development to deployment and beyond.
+            </p>
+
+            <p>
+              <b>Network Security -</b> <br /> protecting the integrity,
+              confidentiality, and availability of data and resources as they
+              are transmitted across or accessed through networks.
+            </p>
+
+            <p>
+              <b>DevSecOps -</b> <br /> is a practice that implements security
+              into every phase of the software development lifecycle.
+            </p>
+            <br />
+            {/* <div className="three columns">
               <img
                 className="profile-pic"
                 src={profilepic}
@@ -56,7 +106,7 @@ class About extends Component {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </Fade>
       </section>

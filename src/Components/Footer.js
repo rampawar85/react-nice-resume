@@ -18,7 +18,7 @@ class Footer extends Component {
     return (
       <footer>
         <div className="row">
-          <Fade bottom>
+          {/* <Fade bottom>
             <div className="twelve columns">
               <ul className="social-links">{networks}</ul>
 
@@ -32,7 +32,7 @@ class Footer extends Component {
                 </li>
               </ul>
             </div>
-          </Fade>
+          </Fade> */}
 
           <div id="go-top">
             <a className="smoothscroll" title="Back to Top" href="#home">
